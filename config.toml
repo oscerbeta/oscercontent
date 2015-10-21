@@ -1,0 +1,25 @@
+baseurl = "http://oscerbeta.github.io/"
+languageCode = "en-us"
+title = "OSCER BETA"
+theme = "hyde"
+copyright = "xio"
+
+[Author]
+	name = "xio"
+
+[Permalinks]
+	blog = "/:year/:month/:filename/"
+	code = "/:filename/"
+
+[Taxonomies]
+	tag = "tags"
+	series = "series"
+	series-desc = "series-desc"
+
+[params]
+	description = "Information Site"
+#	twitter = "https://twitter.com/urban_coder"
+	github = "https://github.com/oscerbeta"
+#	gplus = "https://plus.google.com/oscerbeta"
+#	disqus = "oscerbeta"
+

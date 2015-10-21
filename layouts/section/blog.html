@@ -1,0 +1,16 @@
+{{ template "theme/chrome/head.html" . }}
+<body>
+
+{{ template "theme/chrome/sidebar.html" . }}
+
+    <div class="content container">
+  <h2 class="title">Frequently Asked Questions</h2> 
+  <ul class="posts">
+      {{ range .Data.Pages }}
+      <li><span><a href="{{ .Permalink }}">{{ .Title }}</a></span></li>
+      {{ end }}
+  </ul>
+    </div>
+
+  </body>
+</html>
